@@ -1,0 +1,148 @@
+/* Style.css */
+
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.hero-image {
+  width:450px;
+  height:200px;
+}
+
+.content-img {
+    width:130px;
+    height:100px;
+    border-radius: 8px;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo,.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a, .hero-second, .actor {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header,.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px 100px 200px;
+}
+
+.hero {
+    flex-flow: row wrap;
+}
+
+.hero-first {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.cattext {
+    font-style: italic;
+}
+button, .actor {
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.wrap {
+    max-width: 400px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 32px;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.content {
+    max-width: 130px;
+    text-align: center;
+}
+
+.quote-sect {
+    display: flex;
+    padding: 100px 260px 100px 260px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    text-align: left;
+}
+
+.qoute {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-size: 26px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actor {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 100px;
+    padding: 42px 84px 42px 84px;
+}
+.sign-up {
+    border: 2px solid #3882F6;
+    margin-top: 8px;
+}
+.call-sign {
+    align-self: flex-end;
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
